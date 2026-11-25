@@ -1,0 +1,40 @@
+{
+  "name": "@local/word-comments",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Native Word comments (.docx) for DeepSeek Harness — independent companion plugin that survives office-plugin upgrades",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "word",
+    "docx",
+    "comments",
+    "plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dEGABAKi/word-comments.git"
+  },
+  "homepage": "https://github.com/dEGABAKi/word-comments#readme",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "py",
+    "locale",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
