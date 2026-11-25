@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Word 原生批注",
+    "description": "在 .docx 中插入、读取、删除 Word 原生批注，不依赖 Office 插件。"
+  }
+}
