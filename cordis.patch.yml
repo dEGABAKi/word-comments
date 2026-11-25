@@ -1,0 +1,4 @@
+- insert:
+    - id: word-comments
+      name: '@local/word-comments'
+      config: {}
