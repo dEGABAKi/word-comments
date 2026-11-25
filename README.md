@@ -22,7 +22,7 @@ consequences:
 From GitHub (installs as a bundle, no build step — the plugin is plain ESM):
 
 ```
-plugin_manager install_bundle -> github:<owner>/word-comments
+plugin_manager install_bundle -> github:dEGABAKi/word-comments
 ```
 
 From a local checkout, point the same action at the folder:
